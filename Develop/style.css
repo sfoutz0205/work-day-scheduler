@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  box-sizing: border-box;
 }
 
 textarea {
@@ -19,11 +20,24 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  box-shadow: 2px 2px #06AED5;
+}
+
+.display-3 {
+  font-size: 7vw;
+  text-shadow: 2px 2px #06AED5;
 }
 
 .description{
   white-space: pre-wrap;
+  font-size: 2vw;
 }
+
+.date {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
 
 .time-block{
   text-align: center;
@@ -41,6 +55,7 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
   padding: 25px 0;
+  text-shadow: 1px 1px #06AED5;
 }
 
 .past {
@@ -69,4 +84,8 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+footer {
+  padding: 35px;
 }

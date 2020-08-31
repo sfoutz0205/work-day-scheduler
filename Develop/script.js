@@ -27,6 +27,10 @@ function hourTracker() {
     var value = $(this).siblings(".task-input").val();
     var time = $(this).parent().attr("id");
     localStorage.setItem(time, value);
+
+    if (!value) {
+      alert("please enter task information to save");
+    }
   });
 
 // retrieve tasks from local storage
