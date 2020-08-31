@@ -23,5 +23,6 @@ This is a simple calendar application that allows a user to schedule and save ev
 
 ## Deployed Application
 
+https://sfoutz0205.github.io/work-day-scheduler/
 
 
